@@ -12,19 +12,19 @@
     <title>MXB</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="{{ asset('/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
-    <link href="{{ asset('vendor/metisMenu/metisMenu.min.css')}}" rel="stylesheet">
+    <link href="/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="{{ asset('/dist/css/sb-admin-2.css')}}" rel="stylesheet">
+    <link href="/dist/css/sb-admin-2.css" rel="stylesheet">
 
     <!-- Morris Charts CSS -->
-    <link href="{{ asset('/vendor/morrisjs/morris.css')}}" rel="stylesheet">
+    <link href="/vendor/morrisjs/morris.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="{{ asset('/vendor/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -388,11 +388,12 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="huge">26</div>
-                                    <div>New Comments!</div>
+									
+                                    <div>Click to Check in</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="javascript:void(0)" onclick="window.location.href='checkip'">
                             <div class="panel-footer">
                                 <span class="pull-left">View Details</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -803,21 +804,21 @@
     <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <script src="{{ asset('/vendor/jquery/jquery.min.js') }}"></script>
+    <script src="/vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="{{ asset('/vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Metis Menu Plugin JavaScript -->
-    <script src="{{ asset('/vendor/metisMenu/metisMenu.min.js') }}"></script>
+    <script src="/vendor/metisMenu/metisMenu.min.js"></script>
 
     <!-- Morris Charts JavaScript -->
-    <script src="{{ asset('/vendor/raphael/raphael.min.js') }}"></script>
-    <script src="{{ asset('/vendor/morrisjs/morris.min.js') }}"></script>
-    <script src="{{ asset('/data/morris-data.js') }}"></script>
+    <script src="/vendor/raphael/raphael.min.js"></script>
+    <script src="/vendor/morrisjs/morris.min.js"></script>
+    <script src="/data/morris-data.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="{{ asset('/dist/js/sb-admin-2.js') }}"></script>
+    <script src="/dist/js/sb-admin-2.js"></script>
 
 </body>
 

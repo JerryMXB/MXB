@@ -114,6 +114,11 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'AppBundle\\Controller\\MxbController::indexAction',  '_route' => 'homepage',);
         }
 
+        // checkip
+        if ($pathinfo === '/checkip') {
+            return array (  '_controller' => 'AppBundle\\Controller\\MxbController::checkipAction',  '_route' => 'checkip',);
+        }
+
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();
     }
 }
